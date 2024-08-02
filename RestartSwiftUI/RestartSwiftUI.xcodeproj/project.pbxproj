@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F25AD4272C5CD0CE00A46EBE /* RestartSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AD4262C5CD0CE00A46EBE /* RestartSwiftUIApp.swift */; };
-		F25AD4292C5CD0CE00A46EBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AD4282C5CD0CE00A46EBE /* ContentView.swift */; };
 		F25AD42B2C5CD0CF00A46EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25AD42A2C5CD0CF00A46EBE /* Assets.xcassets */; };
 		F25AD42F2C5CD0CF00A46EBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25AD42E2C5CD0CF00A46EBE /* Preview Assets.xcassets */; };
 		F25AD4392C5CD0CF00A46EBE /* RestartSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AD4382C5CD0CF00A46EBE /* RestartSwiftUITests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		F25AD4232C5CD0CE00A46EBE /* RestartSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestartSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25AD4262C5CD0CE00A46EBE /* RestartSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartSwiftUIApp.swift; sourceTree = "<group>"; };
-		F25AD4282C5CD0CE00A46EBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F25AD42A2C5CD0CF00A46EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F25AD42C2C5CD0CF00A46EBE /* RestartSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RestartSwiftUI.entitlements; sourceTree = "<group>"; };
 		F25AD42E2C5CD0CF00A46EBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				F25AD4262C5CD0CE00A46EBE /* RestartSwiftUIApp.swift */,
-				F25AD4282C5CD0CE00A46EBE /* ContentView.swift */,
 				F25AD42A2C5CD0CF00A46EBE /* Assets.xcassets */,
 				F25AD42C2C5CD0CF00A46EBE /* RestartSwiftUI.entitlements */,
 				F25AD42D2C5CD0CF00A46EBE /* Preview Content */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F25AD4292C5CD0CE00A46EBE /* ContentView.swift in Sources */,
 				F25AD4272C5CD0CE00A46EBE /* RestartSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
