@@ -13,6 +13,10 @@
 		F25AD4392C5CD0CF00A46EBE /* RestartSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AD4382C5CD0CF00A46EBE /* RestartSwiftUITests.swift */; };
 		F25AD4432C5CD0CF00A46EBE /* RestartSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AD4422C5CD0CF00A46EBE /* RestartSwiftUIUITests.swift */; };
 		F25AD4452C5CD0CF00A46EBE /* RestartSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AD4442C5CD0CF00A46EBE /* RestartSwiftUIUITestsLaunchTests.swift */; };
+		F25AD4672C5CD43A00A46EBE /* Screens in Resources */ = {isa = PBXBuildFile; fileRef = F25AD4632C5CD43A00A46EBE /* Screens */; };
+		F25AD4682C5CD43A00A46EBE /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F25AD4642C5CD43A00A46EBE /* Sounds */; };
+		F25AD4692C5CD43A00A46EBE /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = F25AD4652C5CD43A00A46EBE /* Utilities */; };
+		F25AD46A2C5CD43A00A46EBE /* Views in Resources */ = {isa = PBXBuildFile; fileRef = F25AD4662C5CD43A00A46EBE /* Views */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		F25AD43E2C5CD0CF00A46EBE /* RestartSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestartSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25AD4422C5CD0CF00A46EBE /* RestartSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartSwiftUIUITests.swift; sourceTree = "<group>"; };
 		F25AD4442C5CD0CF00A46EBE /* RestartSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F25AD4632C5CD43A00A46EBE /* Screens */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Screens; sourceTree = "<group>"; };
+		F25AD4642C5CD43A00A46EBE /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		F25AD4652C5CD43A00A46EBE /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
+		F25AD4662C5CD43A00A46EBE /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				F25AD4262C5CD0CE00A46EBE /* RestartSwiftUIApp.swift */,
+				F25AD4632C5CD43A00A46EBE /* Screens */,
+				F25AD4642C5CD43A00A46EBE /* Sounds */,
+				F25AD4652C5CD43A00A46EBE /* Utilities */,
+				F25AD4662C5CD43A00A46EBE /* Views */,
 				F25AD42A2C5CD0CF00A46EBE /* Assets.xcassets */,
 				F25AD42C2C5CD0CF00A46EBE /* RestartSwiftUI.entitlements */,
 				F25AD42D2C5CD0CF00A46EBE /* Preview Content */,
@@ -230,7 +242,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25AD4672C5CD43A00A46EBE /* Screens in Resources */,
 				F25AD42F2C5CD0CF00A46EBE /* Preview Assets.xcassets in Resources */,
+				F25AD4682C5CD43A00A46EBE /* Sounds in Resources */,
+				F25AD46A2C5CD43A00A46EBE /* Views in Resources */,
+				F25AD4692C5CD43A00A46EBE /* Utilities in Resources */,
 				F25AD42B2C5CD0CF00A46EBE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
